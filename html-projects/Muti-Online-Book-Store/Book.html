@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Science Fiction Books | Muti BookStore</title>
+</head>
+<body>
+
+  <header>
+
+      <nav>
+            <a href="Homepage.html">Home</a>||
+            <a href="Book.html">Books</a>||
+            <a href="Details.html">Details</a>||
+            <a href="search.html">Search</a>||
+            <a href="Cart.html">Cart</a>||
+            <a href="Checkout.html">Checkout</a>||
+            <a href="About.html">About us</a> </nav>
+    <h1>📚 Science Fiction Collection</h1>
+  
+  </header>
+
+  <main>
+
+    <!-- Filter Section -->
+    <section>
+      <h2>Filter Books</h2>
+      <form>
+        <fieldset>
+          <legend>Genre</legend>
+          <label><input type="radio" name="genre" value="sci-fi" checked> Science Fiction</label><br>
+          <label><input type="radio" name="genre" value="fantasy"> Fantasy</label><br>
+          <label><input type="radio" name="genre" value="romance"> Romance</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Price Range</legend>
+          <label for="price">Max Price:</label>
+          <input type="range" id="price" name="price" min="0" max="50">
+        </fieldset>
+
+        <fieldset>
+          <legend>Language</legend>
+          <label for="language">Select Language:</label>
+          <select id="language" name="language">
+            <option value="all">All</option>
+            <option value="english">English</option>
+            <option value="french">French</option>
+            <option value="german">German</option>
+          </select>
+        </fieldset>
+
+        <button type="submit">Apply Filters</button>
+      </form>
+    </section>
+
+    <!-- Book Listing Section -->
+    <section>
+      <h2>Available Books</h2>
+
+      <article>
+        <img src="dune.jpg" alt="Dune Book Cover" width="150">
+        <h3>Dune</h3>
+        <p><strong>Author:</strong> Frank Herbert</p>
+        <p><strong>Price:</strong> 💵 $18.99</p>
+        <p>Epic science fiction saga of politics, religion, and survival on a desert planet.</p>
+      </article>
+
+      <article>
+        <img src="foundation.jpg" alt="Foundation Book Cover" width="150">
+        <h3>Foundation</h3>
+        <p><strong>Author:</strong> Isaac Asimov</p>
+        <p><strong>Price:</strong> 💵 $15.50</p>
+        <p>A visionary tale of mathematics, empire collapse, and human preservation.</p>
+      </article>
+
+      <article>
+        <img src="neuromancer.jpg" alt="Neuromancer Book Cover" width="150">
+        <h3>Neuromancer</h3>
+        <p><strong>Author:</strong> William Gibson</p>
+        <p><strong>Price:</strong> 💵 $13.75</p>
+        <p>Pioneering cyberpunk novel exploring artificial intelligence and virtual reality.</p>
+      </article>
+
+    </section>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Muti Online BookStore — All rights reserved</p>
+  </footer>
+
+</body>
+</html>
